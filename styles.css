@@ -1,0 +1,23 @@
+/*/////////////////////
+   GOOGLE  FONT LINKS
+/////////////////////*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Raleway&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
