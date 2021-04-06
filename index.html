@@ -9,47 +9,67 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="mobile-nav">
         <!-- mobile navigation here -->
+        <ul class="container">
+          <li class="nav-item"><a href="#about-section">About</a></li>
+          <li class="nav-item"><a href="#work-section">My Work</a></li>
+          <li class="nav-item"><a href="#contact-section">Contact</a></li>
+        </ul>
       </nav>
-      <nav>
+      <nav id="desktop-nav">
         <!-- desktop navigation here -->
+        <ul class="container navbar">
+          <li class="nav-item"><a href="#about-section">About</a></li>
+          <li class="nav-item"><a href="#work-section">My Work</a></li>
+          <li class="nav-item"><a href="#contact-section">Contact</a></li>
+        </ul>        
       </nav>
-      <h1>Arbough Custom Carpentry</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
-        fugit molestiae labore, perferendis exercitationem amet.
-      </p>
+        <article id="introduction">
+          <h1>Arbough Custom Carpentry</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati
+            fugit molestiae labore, perferendis exercitationem amet.
+          </p>
+        </article>
+
     </header>
     <main>
       <!-- Build in sections. Greg wants a gallery.  -->
-      <section id="about-section">
+      <section class="container" id="about-section">
         <!-- Info about Greg -->
-        <h2>About</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          tenetur aspernatur quibusdam quas neque fugit, omnis dolorem. Rerum
-          ratione sint alias! Quisquam id numquam harum!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          doloribus fugiat ut dolor tempora unde!
-        </p>
+        <article class="flex-item-column">
+          <h2>About</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            tenetur aspernatur quibusdam quas neque fugit, omnis dolorem. Rerum
+            ratione sint alias! Quisquam id numquam harum!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+            doloribus fugiat ut dolor tempora unde!
+          </p>          
+        </article>
       </section>
-      <section id="work-section">
+      <section class="container" id="work-section">
         <!-- Display Greg's work here. Include the gallery here. Maybe a slider -->
-        <h2>My Work</h2>
-        <p>See a collection of my work below.</p>
+        <article class="flex-item-column">
+          <h2>My Work</h2>
+          <p>See a collection of my work below.</p>
+        </article>
         <div id="gallery">
           <!-- Create gallery here. -->
         </div>
       </section>
-      <section id="contact-section">
-        <h2>Contact Me</h2>
-        <address>
-          <a href="mailto:arboughgreg@gmail.com">arboughgreg@gmail.com</a><br />
-          <a href="tel:+15029999999">(502) 999-9999</a>
-        </address>
+      <section class="container" id="contact-section">
+        <article class="flex-item-column">
+          <h2>Contact Me</h2>
+          <address>
+            <a href="mailto:arboughgreg@gmail.com">arboughgreg@gmail.com</a><br />
+            <a href="tel:+15029999999">(502) 999-9999</a>
+          </address>
+        </article>
+
       </section>
     </main>
   </body>

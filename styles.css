@@ -9,8 +9,11 @@
 
 body {
   display: flex;
+  margin: 0;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 h1 {
   font-family: "Libre Baskerville", serif;
@@ -20,4 +23,84 @@ h1 {
 h2 {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
+}
+
+nav {
+  display: flex;
+  border: 1px blue solid;
+}
+
+
+/*///////////////
+  Classes
+///////////////*/
+
+.navbar {
+  background-color: red;
+  width: 100%;
+
+}
+
+.nav-item {
+  list-style-type: none;
+  display: flex;
+}
+
+
+/* ///////////////
+   IDs
+////////////////*/
+
+#mobile-nav a {
+  color: green;
+  text-decoration: none;
+}
+
+#about-section, 
+#contact-section,
+#work-section {
+  padding: 10%;
+  border-bottom: 1px solid black;
+}
+
+
+
+/* ///////////////
+   FLEX Rules
+////////////////*/
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.flex-item-row {
+  display: flex;
+}
+
+.flex-item-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ///////////////
+   MEDIA QUERIES
+////////////////*/
+
+/* Hides Mobile Nav at 700px */
+@media (min-width: 700px) {
+  #mobile-nav {
+    display: none;
+  }
+  
+}
+/* Display the Desktop Nav at 700px or more */
+@media (max-width: 700px) {
+#desktop-nav {
+    display: none;
+  }
+  
 }
