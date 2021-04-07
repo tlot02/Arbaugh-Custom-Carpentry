@@ -14,7 +14,6 @@ body {
   justify-content: center;
 }
 
-
 h1 {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
@@ -30,7 +29,6 @@ nav {
   border: 1px blue solid;
 }
 
-
 /*///////////////
   Classes
 ///////////////*/
@@ -38,7 +36,6 @@ nav {
 .navbar {
   background-color: red;
   width: 100%;
-
 }
 
 .nav-item {
@@ -46,24 +43,37 @@ nav {
   display: flex;
 }
 
-
 /* ///////////////
    IDs
 ////////////////*/
 
+#mobile-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+#mobile-nav li {
+  display: flex;
+  padding: 10%;
+}
+
 #mobile-nav a {
   color: green;
   text-decoration: none;
+  padding: 5%;
 }
 
-#about-section, 
+#introduction {
+  padding: 10%;
+  text-align: center;
+}
+
+#about-section,
 #contact-section,
 #work-section {
   padding: 10%;
   border-bottom: 1px solid black;
 }
-
-
 
 /* ///////////////
    FLEX Rules
@@ -85,7 +95,6 @@ nav {
   flex-direction: column;
 }
 
-
 /* ///////////////
    MEDIA QUERIES
 ////////////////*/
@@ -95,12 +104,10 @@ nav {
   #mobile-nav {
     display: none;
   }
-  
 }
 /* Display the Desktop Nav at 700px or more */
 @media (max-width: 700px) {
-#desktop-nav {
+  #desktop-nav {
     display: none;
   }
-  
 }
