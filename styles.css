@@ -33,6 +33,11 @@ nav {
   Classes
 ///////////////*/
 
+.burger {
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar {
   background-color: red;
   width: 100%;
@@ -49,19 +54,18 @@ nav {
 
 #mobile-nav {
   display: flex;
-  flex-direction: row;
-}
-
-#mobile-nav li {
-  display: flex;
+  flex-direction: row-reverse;
   padding: 10%;
 }
 
-#mobile-nav a {
-  color: green;
-  text-decoration: none;
-  padding: 5%;
+#mobile-nav span {
+  border:black solid 2px;
+  height: 3px;
+  width: 30px;
+  margin: 1px;
+  border-radius: 5px;
 }
+
 
 #introduction {
   padding: 10%;
