@@ -33,10 +33,6 @@ nav {
   Classes
 ///////////////*/
 
-.burger {
-  display: flex;
-  flex-direction: column;
-}
 
 .navbar {
   background-color: red;
@@ -67,19 +63,7 @@ nav {
   transition: all 200ms ease-in-out;
 }
 
-/* #mobile-nav span:nth-child(1).active {
-  border: green solid 2px;
-  transform: translate(-40%, -50%) rotate(45deg);
-}
 
-#mobile-nav span:nth-child(2).active {
-  display: none;
-}
-
-#mobile-nav span:nth-child(3).active {
-  border: orange solid 2px;
-  transform: translate(-45%, -200%) rotate(-45deg);
-} */
 
 #introduction {
   padding: 10%;
@@ -114,9 +98,41 @@ nav {
 }
 
 
-/* MOBILE NAVIGATION - ACTIVE STATE */
+/* ///////////////////////////////
+MOBILE NAVIGATION - ACTIVE STATE 
+////////////////////////////////*/
 
+.burger {
+  display: flex;
+  flex-direction: column;
+}
 
+.burger span {
+  border-radius: 10px;
+  margin: 2px;
+  height: 5px;
+  width: 40px;
+  background-color: black; 
+  transition: 200ms all ease-in-out;
+}
+
+  .active span:nth-child(1) {
+    transform:translate(-35%,90%) rotate(45deg);
+  }
+
+  .active span:nth-child(2) {
+display: none;  
+}
+
+  .active span:nth-child(3) {
+    transform: translate(-35%,-90%) rotate(-45deg);
+  }
+
+#mobile-nav .active {
+  background-color: blue;
+  height: 500px;
+  width: 500px;
+}
 
 /* ///////////////
    MEDIA QUERIES
