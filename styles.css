@@ -116,15 +116,17 @@ MOBILE NAVIGATION - ACTIVE STATE
   transition: 200ms all ease-in-out;
 }
 
-  .active span:nth-child(1) {
+
+.active span:nth-child(1) {
     transform:translate(-35%,90%) rotate(45deg);
   }
 
-  .active span:nth-child(2) {
+.active span:nth-child(2) {
 display: none;  
 }
 
-  .active span:nth-child(3) {
+
+.active span:nth-child(3) {
     transform: translate(-35%,-90%) rotate(-45deg);
   }
 
@@ -133,6 +135,7 @@ display: none;
   height: 500px;
   width: 500px;
 }
+
 
 /* ///////////////
    MEDIA QUERIES
