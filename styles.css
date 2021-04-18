@@ -70,7 +70,7 @@ p {
 }
 
 .hero-image-1 {
-  background-image: url("/imgs/carpenter.jpg");
+  background-image: url("./imgs/carpenter.jpg");
   background-color: #575757;
   height: 500px;
   width: 100%;
@@ -80,7 +80,7 @@ p {
   position: relative;
 }
 .hero-image-2 {
-  background-image: url("/imgs/saw-landscape.jpg");
+  background-image: url("./imgs/saw-landscape.jpg");
   background-color: #575757;
   height: 500px;
   width: 100%;
@@ -90,7 +90,7 @@ p {
   position: relative;
 }
 .hero-image-3 {
-  background-image: url("/imgs/wooden-table-landscape.jpg");
+  background-image: url("./imgs/wooden-table-landscape.jpg");
   background-color: #575757;
   height: 500px;
   width: 100%;
@@ -100,7 +100,7 @@ p {
   position: relative;
 }
 .hero-image-4 {
-  background-image: url("/imgs/wood-shavings.jpg");
+  background-image: url("./imgs/wood-shavings.jpg");
   background-color: #575757;
   height: 500px;
   width: 100%;
