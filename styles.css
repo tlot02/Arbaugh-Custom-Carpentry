@@ -19,6 +19,7 @@ address a {
 body {
   margin: 0;
   justify-content: center;
+  background-color: #eeeee4;
 }
 
 h1 {
@@ -33,22 +34,34 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  font-family: "Libre Baskerville", serif;
+}
+
 p {
   font-family: "Raleway";
   font-size: 17px;
+}
+
+section {
+  align-items: center;
+}
+
+footer {
+  background-color: #1a1b1f;
+  padding-top: 100px;
+}
+
+footer p {
+  justify-content: center;
+  align-items: center;
+
 }
 
 /*///////////////
   Classes
 ///////////////*/
 
-/* .card {
-  border: 1px solid black;
-  border-radius: 5%;
-  padding: 5%;
-  margin: 10%;
-  box-shadow: 0px 10px 10px 0 rgb(172, 172, 172);
-} */
 
 .card {
   display: flex;
@@ -138,23 +151,30 @@ p {
 }
 
 #about-section,
-#contact-section,
 #work-section {
   padding: 10%;
   height: 125vh;
 }
 
+#contact-section {
+  padding: 10%;
+  height: fit-content;
+}
+
+
 #work-section {
   overflow: scroll;
 }
 
-#gallery {
-  padding-top: 10%;
-}
 
 #work-section::-webkit-scrollbar {
   display: none;
   scrollbar-width: none;
+
+}
+
+#gallery {
+  padding-top: 30%;
 }
 
 /* ///////////////
