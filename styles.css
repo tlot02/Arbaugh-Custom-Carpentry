@@ -8,7 +8,7 @@
 }
 
 address a {
-  color: #131313;
+  color: #1a1b1f;
   text-decoration: none;
   margin: 5%;
   font-family: "Raleway", sans-serif;
@@ -41,7 +41,7 @@ h3 {
 p {
   font-family: "Raleway";
   font-size: 17px;
-  color: #131313;
+  color: #1a1b1f;
 }
 
 section {
@@ -78,13 +78,17 @@ footer p {
   color: white;
 }
 
+.card:hover {
+  transform: scale(1.05);
+}
+
 .darken {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero-image-1 {
   background-image: url("./imgs/carpenter.jpg");
-  /* background-color: #575757; */
+  background-color: #575757;
   height: 500px;
   width: 100%;
   background-position: center;
@@ -113,7 +117,7 @@ footer p {
   position: relative;
 }
 .hero-image-4 {
-  background-image: url("./imgs/wood-shavings.jpg");
+  background-image: url("./imgs/drillBits-landscape.jpg");
   background-color: #575757;
   height: 500px;
   width: 100%;
@@ -152,12 +156,12 @@ footer p {
 
 #about-section,
 #work-section {
-  padding: 10%;
-  height: 125vh;
+  padding: 5%;
+  height: fit-content;
 }
 
 #contact-section {
-  padding: 10%;
+  padding: 5%;
   height: fit-content;
 }
 
@@ -171,7 +175,7 @@ footer p {
 }
 
 #gallery {
-  padding-top: 30%;
+  padding-top: 30px;
 }
 
 /* ///////////////
