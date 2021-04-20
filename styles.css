@@ -8,7 +8,7 @@
 }
 
 address a {
-  color: white;
+  color: #131313;
   text-decoration: none;
   margin: 5%;
   font-family: "Raleway", sans-serif;
@@ -31,7 +31,7 @@ h1 {
 h2 {
   font-family: "Libre Baskerville", serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 h3 {
@@ -41,6 +41,7 @@ h3 {
 p {
   font-family: "Raleway";
   font-size: 17px;
+  color: #131313;
 }
 
 section {
@@ -49,19 +50,18 @@ section {
 
 footer {
   background-color: #1a1b1f;
-  padding-top: 100px;
+  padding-top: 25px;
 }
 
 footer p {
   justify-content: center;
   align-items: center;
-
+  color: #eeeee4;
 }
 
 /*///////////////
   Classes
 ///////////////*/
-
 
 .card {
   display: flex;
@@ -161,16 +161,13 @@ footer p {
   height: fit-content;
 }
 
-
 #work-section {
   overflow: scroll;
 }
 
-
 #work-section::-webkit-scrollbar {
   display: none;
   scrollbar-width: none;
-
 }
 
 #gallery {
