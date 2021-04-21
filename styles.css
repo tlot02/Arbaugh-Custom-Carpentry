@@ -50,17 +50,20 @@ section {
 
 footer {
   background-color: #1a1b1f;
-  padding-top: 25px;
-}
-
-footer p {
   justify-content: center;
   align-items: center;
-  color: #eeeee4;
 }
 
-/*///////////////
-  Classes
+#madeBy {
+  color: #eeeee4;
+  padding: 5px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+/*/ //////////////
+Classes
 ///////////////*/
 
 .card {
@@ -91,7 +94,7 @@ footer p {
 .hero-image-1 {
   background-image: url("./imgs/carpenter.jpg");
   background-color: #575757;
-  height: 500px;
+  height: 350px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,7 +104,7 @@ footer p {
 .hero-image-2 {
   background-image: url("./imgs/saw-landscape.jpg");
   background-color: #575757;
-  height: 500px;
+  height: 350px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,7 +114,7 @@ footer p {
 .hero-image-3 {
   background-image: url("./imgs/wooden-table-landscape.jpg");
   background-color: #575757;
-  height: 500px;
+  height: 350px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,7 +124,7 @@ footer p {
 .hero-image-4 {
   background-image: url("./imgs/drillBits-landscape.jpg");
   background-color: #575757;
-  height: 500px;
+  height: 350px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,7 +176,7 @@ footer p {
 }
 
 /* ///////////////
-   FLEX Rules
+FLEX Rules
 ////////////////*/
 
 .container {
@@ -223,23 +226,6 @@ MOBILE NAVIGATION - ACTIVE STATE
 
 .active span:nth-child(3) {
   transform: translate(-35%, -90%) rotate(-45deg);
-}
-
-/* ///////////////
-   MEDIA QUERIES
-////////////////*/
-
-/* Hides Mobile Nav at 700px */
-@media (min-width: 700px) {
-  #mobile-nav {
-    display: none;
-  }
-}
-/* Display the Desktop Nav at 700px or more */
-@media (max-width: 700px) {
-  #desktop-nav {
-    display: none;
-  }
 }
 
 /* mobile nav */
@@ -330,4 +316,17 @@ MOBILE NAVIGATION - ACTIVE STATE
 .navigation .links a:hover:after {
   /* animates the underline */
   width: 100%;
+}
+
+/* ///////////////
+   MEDIA QUERIES
+////////////////*/
+
+@media (min-width: 712px) {
+  .hero-image-1,
+  .hero-image-2,
+  .hero-image-3,
+  .hero-image-4 {
+    height: 500px;
+  }
 }
