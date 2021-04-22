@@ -179,6 +179,11 @@ Classes
 FLEX Rules
 ////////////////*/
 
+.centered {
+  justify-content: center;
+  text-align: center;
+}
+
 .container {
   justify-content: center;
   display: flex;
@@ -328,5 +333,15 @@ MOBILE NAVIGATION - ACTIVE STATE
   .hero-image-3,
   .hero-image-4 {
     height: 500px;
+  }
+
+  #email-div {
+    margin-left: 10%;
+    flex-grow: 1;
+  }
+
+  #phone-div {
+    margin-right: 10%;
+    flex-grow: 1;
   }
 }
